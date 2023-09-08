@@ -1,0 +1,32 @@
+{
+    "postList": [
+        {
+          "img": "https://source.unsplash.com/random/300x200?sig=1",
+          "user": "@eric",
+          "minutes": 5,
+          "comments": 10,
+          "text": "Lrinter took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "img": "https://source.unsplash.com/random/300x200?sig=2",
+          "user": "@kathe",
+          "minutes": 3,
+          "comments": 8,
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        },
+        {
+          "img": "https://source.unsplash.com/random/300x200?sig=3",
+          "user": "@mauro",
+          "minutes": 8,
+          "comments": 12,
+          "text": "Another difference is that you cannot return false to prevent default behavior in React. You must call preventDefault explicitly. For example, with plain HTML, to prevent the default form behavior of submitting, you can write"
+        },
+        {
+          "img": "https://source.unsplash.com/random/300x200?sig=4",
+          "user": "@nia",
+          "minutes": 5,
+          "comments": 25,
+          "text": "When using React, you generally don’t need to call addEventListener to add listeners to a DOM element after it is created. Instead, just provide a listener when the element is initially rendered."
+        }
+    ]
+}
