@@ -9,11 +9,13 @@ function PostList({posts}) {
           ? "Loading..." :    
           posts.map((post, i) => (
             <Post
-              img={post.img}
-              user={post.user}
+              img={post.image}
+              user={post.author.username}
               text={post.text}
-              comments={post.comments}
-              minutes={post.minutes}
+              comments={post.comments.length}
+              createdAt={post.createdAt}
+              postId={post.id}
+              likes={post.likes}
             />
         ))}
       </div>
