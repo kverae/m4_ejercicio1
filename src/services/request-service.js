@@ -24,10 +24,22 @@ export function getProfile(userId) {
       .then((response) => response.data);
 }
 
+export function getUserAuthenticatedProfile() {
+    return axios
+      .get(baseURL + "/api/users/me", {
+        headers: { authorization: `Bearer ${localStorage.getItem("token")}` },
+      })
+      .then((response) => response.data);
+}
+
 export function like(postId) {
     return axios
       .post(baseURL + "/api/posts/" + postId + "/like", {} , {
         headers: { authorization: `Bearer ${localStorage.getItem("token")}` },
       })
       .then((response) => response.data);
+}
+
+export function isUserAuthenticated(){
+    return typeof localStorage.getItem("token") === "string" && localStorage.getItem("token") ;
 }

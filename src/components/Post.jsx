@@ -42,7 +42,7 @@ class Post extends React.Component {
     return (
       <div className="col-lg-3 col-md-4">
         <div className="card mb-3 box-shadow">
-          <img id="Img1" className="card-img-top" src={this.props.img}  style= {{height:"225px", width:"100%", display:"block"}} data-holder-rendered="true"/>
+          <img id="Img1" className="card-img-top" src={this.props.image}  style= {{height:"225px", width:"100%", display:"block"}} data-holder-rendered="true"/>
           <div className="container d-flex justify-content-between align-items-center pt-2">
               <small className="text-muted">{timeToShow}</small>
               <button type="button" class="btn btn-danger" onClick={() => this.addLike()}>
